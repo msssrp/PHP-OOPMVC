@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding:  0px;
+}
+
+.title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header h2{
+    border-left: 2px solid red;
+    padding-left: 5px;
+}
+
+.header-ul{
+    padding-top: 10px;
+}
+
+.header-ul ul{
+    display: flex;
+}
+
+.header-ul ul li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+.phone-detail{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.phone{
+    height: 250px;
+    width: 150px;
+    background-color: #E3E3E3;
+}
+
+.details{
+    position: absolute;
+    top: 10;
+    padding-left: 10px;
+}
+
+.phone-image img{
+    width: 150px;
+    height: 150px;
+}
+
+.price{
+    text-align: center;
+}
+
+.price h6{
+    color: #10CF00;
+}

@@ -1,0 +1,42 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-detail{
+    display: flex;
+    justify-content: space-around;
+          margin-top:90px;
+}
+
+
+.phone-des{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 250px;
+    padding-top: 30px;
+}
+
+.phone-des div{
+    margin-bottom: -50px;
+    margin-right: 60px;
+    width: 150px;
+    height: 150px;
+}
+
+.phone-des >*{
+    flex-basis: 50%;
+}
+
+.phone-des img{
+    width: 50px;
+    height: 50px;
+}
+
+.phone-img{
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+}
